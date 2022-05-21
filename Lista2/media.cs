@@ -9,7 +9,7 @@ class Program{
     int peso1 = int.Parse("2");
     int peso2 = int.Parse("3");
     int media = (s * peso1 + t * peso2)/(peso1 + peso2);
-    Console.WriteLine($"Média parcial: {media}");    
+    Console.WriteLine($"Média parcial = {media}");    
     
   }
 }

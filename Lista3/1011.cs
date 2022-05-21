@@ -1,14 +1,14 @@
 using System;
 
-public class Program {
+public class Program{
 
-  public static void Main(string[] args) {
+  public static void Main(){
 
-    string s = Console.ReadLine();
-    double r = double.Parse(s);
+    double r = double.Parse(Console.ReadLine());
     double pi = 3.14159;
     double a = 4/3.0;
-    double v = a * Math.Pow(r,3) * pi;
-    Console.WriteLine($"VOLUME = {v:0.000}");
+    double vol = a * Math.Pow(r,3) * pi;
+    Console.WriteLine($"VOLUME = {vol:0.000}");
+    
   }
 }

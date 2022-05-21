@@ -1,6 +1,6 @@
 using System;
 
-public class Program {
+public class Program{
 
   public static void Main(){
 
@@ -9,6 +9,7 @@ public class Program {
     int c = int.Parse(b[0]);
     int d = int.Parse(b[1]);
     int divisao = c%d;
-      Console.WriteLine(divisao);
+    Console.WriteLine(divisao);
+    
   }
 }
