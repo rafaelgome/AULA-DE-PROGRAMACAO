@@ -17,5 +17,5 @@ public class Program{
     
   }
 }
-//Math.Pow()
-//Math.Round()
+//Math.Pow() POTENCIA
+//Math.Round() FORMATAR DECIMAL
