@@ -52,6 +52,26 @@ public class Program {
       meio = meio + a;
       menor = menor + b;
     }
+    if(a == c && a>b){
+      maior = maior + a;
+      meio = meio + c;
+      menor = menor + b;
+    }
+    if(a == c && a<b){
+      maior = maior + b;
+      meio = meio + a;
+      menor = menor + c;
+    }
+    if(b == c && b>a){
+      maior = maior + c;
+      meio = meio + b;
+      menor = menor + a;
+    }
+    if(b == c && b<a){
+      maior = maior + a;
+      meio = meio + b;
+      menor = menor + c;
+    }
     if(a == b && a == c){
       maior = maior + a;
       meio = meio + b;
